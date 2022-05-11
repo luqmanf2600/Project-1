@@ -27,6 +27,7 @@ const (
 	port           string = ":9000"
 )
 
+// Menggunakan id, name dan completed
 type (
 	todoModel struct {
 		ID        bson.ObjectId `bson:"_id"`
